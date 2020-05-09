@@ -46,7 +46,7 @@ void Server::worker_noexcept(unsigned int thread_num) noexcept
         log_err(e.what());
     }
     catch (...) {
-        log_err("[Server] non std::exception occured");
+        log_err("[Server] non std::exception occurred");
     }
 
     threads::Stop::get().stop();
