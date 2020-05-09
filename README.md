@@ -1,5 +1,19 @@
 ## libsniper usage examples
 
+## Dependecies
+
+- cmake >= 3.12
+- libev >= 4.31
+- libgoogle-perftools >= 2.7
+- libfmt >= 6
+- boost >= 1.70
+- libre2
+
+Install dependencies (for ubuntu 20.04):
+```
+sudo apt-get install cmake libev-dev libgoogle-perftools-dev libfmt-dev libre2-dev libboost-stacktrace-dev libfmt-dev
+```
+
 ## Build with docker
 
 You could use Dockerfile to build examples:
