@@ -1,0 +1,10 @@
+#!/bin/bash
+
+TYPE=Release
+#TYPE=RelWithDebInfo
+#TYPE=Debug
+
+
+cmake -DCMAKE_BUILD_TYPE=${TYPE} -S .. -B native
+make --jobs=`nproc` -C native
+

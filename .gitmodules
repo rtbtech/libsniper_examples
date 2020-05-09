@@ -1,0 +1,3 @@
+[submodule "libs/core"]
+	path = libs/core
+	url = https://github.com/rtbtech/libsniper.git

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./native/bin/hello_server
