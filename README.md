@@ -1,5 +1,7 @@
 ## libsniper usage examples
 
+[![Build Status](https://travis-ci.com/rtbtech/libsniper_examples.svg?branch=master)](https://travis-ci.com/rtbtech/libsniper_examples)
+
 ## Dependecies
 
 - cmake >= 3.12
