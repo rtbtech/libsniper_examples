@@ -1,0 +1,12 @@
+# Travis CI
+#
+#
+
+sudo: required
+dist: bionic
+language: generic
+services:
+  - docker
+
+script:
+  - docker build -t libsniper_examples .
