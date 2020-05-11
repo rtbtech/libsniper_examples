@@ -5,7 +5,8 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get -qq -y update
 RUN apt-get -qq -y install --no-install-recommends git cmake libev-dev libgoogle-perftools-dev libfmt-dev make \
-                                                   gcc-9 g++-9 libre2-dev libboost-stacktrace-dev libfmt-dev
+                                                   gcc-9 g++-9 libre2-dev libboost-stacktrace-dev libfmt-dev \
+                                                   libxxhash-dev libhttp-parser-dev
 
 RUN   update-alternatives --quiet --remove-all gcc \
     ; update-alternatives --quiet --remove-all g++ \
