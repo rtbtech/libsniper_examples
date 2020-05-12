@@ -15,7 +15,8 @@
 
 Install dependencies (for ubuntu 20.04):
 ```
-sudo apt-get install cmake libev-dev libgoogle-perftools-dev libfmt-dev libre2-dev libboost-stacktrace-dev libfmt-dev
+sudo apt-get install cmake libev-dev libgoogle-perftools-dev libfmt-dev libre2-dev libboost-stacktrace-dev libfmt-dev \
+                           libxxhash-dev libhttp-parser-dev
 ```
 
 ## Build with docker
