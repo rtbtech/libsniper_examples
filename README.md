@@ -10,6 +10,8 @@
 - libfmt >= 6
 - boost >= 1.70
 - libre2
+- libxxhash-dev >= 0.6.2
+- libhttp-parser-dev >= 2.9.0
 
 Install dependencies (for ubuntu 20.04):
 ```
